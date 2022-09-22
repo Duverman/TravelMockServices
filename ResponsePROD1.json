@@ -1,0 +1,1635 @@
+{
+	"GlobalCustomerResponse": {
+		"transactionId": "cfd9aea3-55f2-496a-8380-588f5536c26f",
+		"GlobalCustomer": {
+			"@type": "GlobalCustomer",
+			"Identifier": {
+				"value": "84C62115-8F40-4E92-A80B-AA05938CC257"
+			},
+			"MasterCustomerNumber": "0000626025",
+			"ProductEntitlement": [{
+				"@type": "ProductEntitlement",
+				"enableInd": true,
+				"id": "689C7B74-8E9F-44E0-BF99-3C72B0A120B8",
+				"Code": "TR01",
+				"Name": "MockTrialKit-v1",
+				"Description": "Trial kit for developer experience",
+				"Category": "API",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "0"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "TR01      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+
+				"id": "958E8269-17A4-4EE2-B2BC-872DB7340216",
+				"Code": "TS22",
+				"Name": "MockTestKit1",
+				"Description": "TestKit",
+				"Category": "API",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "BI01      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+
+				"id": "E44F0B34-8559-4F3D-8D6E-599A8BF4474A",
+				"Code": "KIT-HOTELELKITV1-000010-RBD-01",
+				"Name": "MockHotelKit1",
+				"Description": "Kit for shopping and booking Hotels v1",
+				"Category": "API",
+				"Version": "1.0",
+				"Product": [{
+					"APIName": "AirSearch & Availability",
+					"ProductVersion": "V1",
+					"Identifier": {
+						"value": "E76C85EE-B432-4C90-B070-FC493DE78E46"
+					},
+					"AddOnEntitlement": [{
+						"Identifer": {
+							"value": "1E7076CD-B0A0-4233-874F-4BEECD5CAA31"
+						},
+						"Name": "Fare Family Search Add On",
+						"Description": "Fare Family Search -Advanced Air search AddOn",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB01      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "GA"
+						}]
+					}, {
+						"Identifer": {
+							"value": "78964D46-82F0-4C2E-8B91-36CC721F42BA"
+						},
+						"Name": "Split Ticketing",
+						"Description": "Split Ticketing -Advanced Air search Add-On",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB02      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "Beta"
+						}]
+					}, {
+						"Identifer": {
+							"value": "68162BBE-7C2F-415D-A6C6-B7FD8350C9CC"
+						},
+						"Name": "NDC Content",
+						"Description": "NDC Content -Advanced Air search Add-On",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB03      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "GA"
+						}]
+					}]
+				}],
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "TSHK      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "3D930D36-A88C-49DE-820D-2FABAD1F04DC",
+				"Code": "AIRK02",
+				"Name": "MockTest Kit for New Akana",
+				"Description": "Airkit related apis will be part of it",
+				"Category": "API",
+				"Version": "V0",
+				"Product": [{
+					"APIName": "TripChange-Domain-Preview 4535",
+					"ProductVersion": "V3",
+					"AddOnEntitlement": [{
+						"Identifer": {
+							"value": "43D85F00-122A-4045-9F11-CEFC72EC4BC9"
+						},
+						"Name": "AddOn 4",
+						"Description": "Addontest",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TU9       "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "GA"
+						}]
+					}]
+				}],
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "GA"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "TA01      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "CEE106B1-728B-4ABE-AD89-07673AF6CDFA",
+				"Code": "NDCPLU",
+				"Name": "MockNDC Webplugin",
+				"Description": "Kit for NDC APP v1",
+				"Category": "POS",
+				"Version": "2.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "TSAK      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "A5B8BA0D-C81E-4D4B-9088-E4E35E1E0916",
+				"Code": "TRPCK01",
+				"Name": "MockTripChangeEligibility",
+				"Description": "Trip Change Eligibility",
+				"Category": "API",
+				"Version": "1.0",
+				"Product": [{
+					"APIName": "TripChange-Domain-Preview 4535",
+					"ProductVersion": "V3",
+					"AddOnEntitlement": [{
+						"Identifer": {
+							"value": "43D85F00-122A-4045-9F11-CEFC72EC4BC9"
+						},
+						"Name": "AddOn 4",
+						"Description": "Addontest",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TU9       "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "GA"
+						}]
+					}]
+				}],
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Beta"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "TU01      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "7BB094F7-EC62-4721-8B30-B38A2F6A19C4",
+				"Code": "KIT-HOTELELKITV1-000010-RBD-01",
+				"Name": "MockHotelKit_Test1",
+				"Description": "Kit for Hotel Services",
+				"Category": "API",
+				"Version": "1.0",
+				"Product": [{
+					"APIName": "TripChange-Domain-Preview 4535",
+					"ProductVersion": "V3",
+					"AddOnEntitlement": [{
+						"Identifer": {
+							"value": "43D85F00-122A-4045-9F11-CEFC72EC4BC9"
+						},
+						"Name": "AddOn 4",
+						"Description": "Addontest",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TU9       "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "GA"
+						}]
+					}]
+				}, {
+					"APIName": "AirSearch & Availability",
+					"ProductVersion": "V1",
+					"AddOnEntitlement": [{
+						"Identifer": {
+							"value": "1E7076CD-B0A0-4233-874F-4BEECD5CAA31"
+						},
+						"Name": "Fare Family Search Add On",
+						"Description": "Fare Family Search -Advanced Air search AddOn",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB01      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "GA"
+						}]
+					}, {
+						"Identifer": {
+							"value": "78964D46-82F0-4C2E-8B91-36CC721F42BA"
+						},
+						"Name": "Split Ticketing",
+						"Description": "Split Ticketing -Advanced Air search Add-On",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB02      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "Beta"
+						}]
+					}, {
+						"Identifer": {
+							"value": "68162BBE-7C2F-415D-A6C6-B7FD8350C9CC"
+						},
+						"Name": "NDC Content",
+						"Description": "NDC Content -Advanced Air search Add-On",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB03      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "GA"
+						}]
+					}]
+				}],
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "GA"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "TSAK      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+
+				"id": "B13BB065-2D64-4233-8D5C-7BC233B24BBF",
+				"Code": "TTSSas",
+				"Name": "MockTest",
+				"Description": "Test",
+				"Category": "API",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "BNMJ      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "CC56F92B-D23A-46E8-96DF-F833F34CDF43",
+				"Code": "zz",
+				"Name": "Mockzz",
+				"Description": "zzaaa",
+				"Category": "API",
+				"Version": "16.0",
+				"Product": [{
+					"APIName": "AirSearch & Availability",
+					"ProductVersion": "V1",
+					"AddOnEntitlement": [{
+						"Identifer": {
+							"value": "1E7076CD-B0A0-4233-874F-4BEECD5CAA31"
+						},
+						"Name": "Fare Family Search Add On",
+						"Description": "Fare Family Search -Advanced Air search AddOn",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB01      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "GA"
+						}]
+					}, {
+						"Identifer": {
+							"value": "78964D46-82F0-4C2E-8B91-36CC721F42BA"
+						},
+						"Name": "Split Ticketing",
+						"Description": "Split Ticketing -Advanced Air search Add-On",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB02      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "Beta"
+						}]
+					}, {
+						"Identifer": {
+							"value": "68162BBE-7C2F-415D-A6C6-B7FD8350C9CC"
+						},
+						"Name": "NDC Content",
+						"Description": "NDC Content -Advanced Air search Add-On",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB03      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "GA"
+						}]
+					}]
+				}],
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "0"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Beta"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "zz11      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "F97273E8-5F95-4CA9-B7F1-F319D9F93490",
+				"Code": "SPPLUS",
+				"Name": "MockSmartpoint Plus",
+				"Description": "Smartpoint Plus Kit",
+				"Category": "POS",
+				"Version": "1.0",
+				"Product": [{
+					"APIName": "Exchange Connector",
+					"ProductVersion": "V1",
+					"AddOnEntitlement": [{
+						"Identifer": {
+							"value": "55520F0E-B76D-4E20-83E1-1E1F1DC311BA"
+						},
+						"Name": "Exchange AddOn Kit",
+						"Description": "Exchange kit is an ADDON for SmartPoint Plus",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "AUTOEXCH  "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "Alpha"
+						}]
+					}]
+				}, {
+					"APIName": "Refund Connector",
+					"ProductVersion": "V1",
+					"AddOnEntitlement": [{
+						"Identifer": {
+							"value": "8FC94B52-F0C6-4B26-823D-32EF508284C9"
+						},
+						"Name": "Refund AddOn Kit",
+						"Description": "Refund kit is an ADDON for SmartPoint Plus",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "AUTOREFUND"
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "Alpha"
+						}]
+					}]
+				}],
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "SPNB      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "54C11DD5-530C-4FE1-9FA8-6A1DC637A270",
+				"Code": "Trip-Services",
+				"Name": "MockHotelServices",
+				"Description": "hotel Kit",
+				"Category": "POS",
+				"Version": "1",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "0"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Beta"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "QWER      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "81CF8B19-C772-41CE-95A7-88B0D617A331",
+				"Code": "KIT-HOTELELKITV1-000010-RBD-01",
+				"Name": "MockHotelKit3",
+				"Description": "TestKit",
+				"Category": "API",
+				"Version": "3.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "TSHK      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "76220AA2-231E-4A20-AA15-D3522F7FEA62",
+				"Code": "ATBR",
+				"Name": "MockATBRD",
+				"Description": "ATTEST",
+				"Category": "API",
+				"Version": "1.0",
+				"Product": [{
+					"APIName": "AirSearch & Availability",
+					"ProductVersion": "V1",
+					"AddOnEntitlement": [{
+						"Identifer": {
+							"value": "1E7076CD-B0A0-4233-874F-4BEECD5CAA31"
+						},
+						"Name": "Fare Family Search Add On",
+						"Description": "Fare Family Search -Advanced Air search AddOn",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB01      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "GA"
+						}]
+					}, {
+						"Identifer": {
+							"value": "78964D46-82F0-4C2E-8B91-36CC721F42BA"
+						},
+						"Name": "Split Ticketing",
+						"Description": "Split Ticketing -Advanced Air search Add-On",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB02      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "Beta"
+						}]
+					}, {
+						"Identifer": {
+							"value": "68162BBE-7C2F-415D-A6C6-B7FD8350C9CC"
+						},
+						"Name": "NDC Content",
+						"Description": "NDC Content -Advanced Air search Add-On",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB03      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "GA"
+						}]
+					}]
+				}],
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "ATBT      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "2326329B-AEB6-497C-B596-D2E2A41B5E34",
+				"Code": "HOTEL01",
+				"Name": "MockTestAA",
+				"Description": "AA",
+				"Category": "POS",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "samp      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "BA398D02-C6A0-4451-9FCB-4BCD7A1953D6",
+				"Code": "ACM01",
+				"Name": "MockAgency Content Manager - Hotel",
+				"Description": "Agency Admin Tool - Agent Revenue Optimization",
+				"Category": "POS",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "          "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "E9CCB151-2ADA-4D30-8117-F3C9B3C51B58",
+				"Code": "HOTEL01",
+				"Name": "MockPKit1",
+				"Description": "AddKit1",
+				"Category": "API",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Beta"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "some      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "A05C2E51-443D-4142-850A-A1536BC5AE8B",
+				"Code": "HOTEL01",
+				"Name": "MockPKit2",
+				"Description": "AddKit2",
+				"Category": "POS",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Beta"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "some      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "2E55BF3A-3DA9-4A05-921A-9E3245B1A6EF",
+				"Code": "HOTEL01",
+				"Name": "MockPKit3",
+				"Description": "AddKit3",
+				"Category": "API",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Beta"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "some      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "CA80ECE0-D716-46C4-AD50-EBFD31EB0827",
+				"Code": "KIT-HOTELELKITV1-000010-RBD-01",
+				"Name": "MockPKtest01",
+				"Description": "aaaa",
+				"Category": "API",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "1234      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "DF70F9FB-2686-4044-A54C-5E1BD2C31236",
+				"Code": "AIRKI02",
+				"Name": "MockTest Kit 3",
+				"Description": "Test Kit 3",
+				"Category": "API",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "KL89      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"enableInd": true,
+				"id": "DF1C3C4E-E626-4C75-B9EA-9D69605FE027",
+				"Code": "AIRK05",
+				"Name": "MockAirKit V5-DEV",
+				"Description": "Bizagi Added to match PreProd",
+				"Category": "API",
+				"Version": "5.0",
+				"Product": [{
+					"APIName": "AirSearch & Availability",
+					"ProductVersion": "V1",
+					"AddOnEntitlement": [{
+						"Identifer": {
+							"value": "1E7076CD-B0A0-4233-874F-4BEECD5CAA31"
+						},
+						"Name": "Fare Family Search Add On",
+						"Description": "Fare Family Search -Advanced Air search AddOn",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB01      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "GA"
+						}]
+					}, {
+						"Identifer": {
+							"value": "78964D46-82F0-4C2E-8B91-36CC721F42BA"
+						},
+						"Name": "Split Ticketing",
+						"Description": "Split Ticketing -Advanced Air search Add-On",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB02      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "Beta"
+						}]
+					}, {
+						"Identifer": {
+							"value": "68162BBE-7C2F-415D-A6C6-B7FD8350C9CC"
+						},
+						"Name": "NDC Content",
+						"Description": "NDC Content -Advanced Air search Add-On",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB03      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "GA"
+						}]
+					}]
+				}],
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "TSAK      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "A4823E8C-F824-4CA1-99CF-79B8BFAA1F2C",
+				"Code": "PAYK01",
+				"Name": "MockPayment Card Services Kit-DEV",
+				"Description": "Bizagi Added to match PreProd",
+				"Category": "API",
+				"Version": "2.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "TSPO      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "615161C7-B7FB-41F3-9D20-F1E486A97FCF",
+				"Code": "AIRK04",
+				"Name": "MockAirKit V4-DEV",
+				"Description": "Bizagi Added to match PreProd",
+				"Category": "API",
+				"Version": "4.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "TSAK      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "B475FED6-B18D-4E1A-8E4A-BA353B99B3FF",
+				"Code": "TRPCK01",
+				"Name": "MockExchanges and Refunds",
+				"Description": "Exchanges and Refunds",
+				"Category": "API",
+				"Version": "1.0",
+				"Product": [{
+					"APIName": "TripChange-Domain-Preview 4535",
+					"ProductVersion": "V3",
+					"AddOnEntitlement": [{
+						"Identifer": {
+							"value": "43D85F00-122A-4045-9F11-CEFC72EC4BC9"
+						},
+						"Name": "AddOn 4",
+						"Description": "Addontest",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TU9       "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "GA"
+						}]
+					}]
+				}],
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "TU01      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "FB9FAE46-3FBE-48F6-A859-BC25C586C71C",
+				"Code": "AIRK03",
+				"Name": "MockAirKit V3-DEV",
+				"Description": "Bizagi Added to match PreProd",
+				"Category": "API",
+				"Version": "3.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "TSAK      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "834D090C-3ACB-4F7E-8D81-50AD389744D1",
+				"Code": "TS23",
+				"Name": "MockAPI KIT CHK",
+				"Description": "Test kit with more APIs",
+				"Category": "API",
+				"Version": "1.0",
+				"Product": [{
+					"APIName": "AirSearch & Availability",
+					"ProductVersion": "V1",
+					"AddOnEntitlement": [{
+						"Identifer": {
+							"value": "1E7076CD-B0A0-4233-874F-4BEECD5CAA31"
+						},
+						"Name": "Fare Family Search Add On",
+						"Description": "Fare Family Search -Advanced Air search AddOn",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB01      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "GA"
+						}]
+					}, {
+						"Identifer": {
+							"value": "78964D46-82F0-4C2E-8B91-36CC721F42BA"
+						},
+						"Name": "Split Ticketing",
+						"Description": "Split Ticketing -Advanced Air search Add-On",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB02      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "Beta"
+						}]
+					}, {
+						"Identifer": {
+							"value": "68162BBE-7C2F-415D-A6C6-B7FD8350C9CC"
+						},
+						"Name": "NDC Content",
+						"Description": "NDC Content -Advanced Air search Add-On",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB03      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "GA"
+						}]
+					}]
+				}],
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "TA01      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "D0A7DA0E-5873-457D-9316-D372AFBBC8D5",
+				"Code": "KIT-TES-KITV1-000010-RBD",
+				"Name": "MockTvlprt Efficiency Suite",
+				"Description": "Kit for TES v1",
+				"Category": "POS",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "TSAK      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+
+				"id": "F621AF22-41D3-40F3-BB2A-DBE165E840C1",
+				"Code": "SPKITEX",
+				"Name": "MockExchange kit for SP cloud-testing",
+				"Description": "Exchange kit for SP cloud",
+				"Category": "POS",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "JKLO      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "B3D4FBD2-FA9E-486E-BBE8-24FE3FEBF6F9",
+				"Code": "Air",
+				"Name": "MockTest Kit Z1",
+				"Description": "Test Kit Z1 Description",
+				"Category": "POS",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "Z1C1      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "D0903704-2BBA-4215-8F90-C0C03FEE83C7",
+				"Code": "AGPY_AF",
+				"Name": "MockAGENCY_PAYS_AF",
+				"Description": "AgencyPays Kit for AirFrance",
+				"Category": "GENERIC",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "0"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "AF01      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "34ACD28D-53CD-4EA3-A506-57ACE4FE7237",
+				"Code": "AGPY_BA",
+				"Name": "MockAGENCY_PAYS_BA",
+				"Description": "AgencyPays Kit for British Airways",
+				"Category": "GENERIC",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "0"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "BA01      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "611566DC-289C-4974-B27D-C36749C37905",
+				"Code": "AGPY_DL",
+				"Name": "MockAGENCY_PAYS_DL",
+				"Description": "AgencyPays Kit for Delta Airlines",
+				"Category": "GENERIC",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "0"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "DL01      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "87645D28-E0F0-4AAF-9F89-09945E30223C",
+				"Code": "AGPY_AA",
+				"Name": "MockAGENCY_PAYS_AA",
+				"Description": "AgencyPays Kit for American Airlines",
+				"Category": "GENERIC",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "0"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "AA01      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "07F864CB-F42E-44F8-ADE3-144745D63AD2",
+				"Code": "AGPY_KL",
+				"Name": "MockAGENCY_PAYS_KL",
+				"Description": "AgencyPays Kit for KLM Airlines",
+				"Category": "GENERIC",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "0"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "KL01      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "FCB6F1AC-36F3-412D-8645-C4EAD75BFD82",
+				"Code": "AIRKIT-TEST",
+				"Name": "MockTest Kit",
+				"Description": "Test Kit Description",
+				"Category": "API",
+				"Version": "1.0",
+				"Product": [{
+					"APIName": "TripChange-Domain-Preview 4535",
+					"ProductVersion": "V3",
+					"AddOnEntitlement": [{
+						"Identifer": {
+							"value": "43D85F00-122A-4045-9F11-CEFC72EC4BC9"
+						},
+						"Name": "AddOn 4",
+						"Description": "Addontest",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TU9       "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "GA"
+						}]
+					}]
+				}, {
+					"APIName": "AirSearch & Availability",
+					"ProductVersion": "V1",
+					"AddOnEntitlement": [{
+						"Identifer": {
+							"value": "1E7076CD-B0A0-4233-874F-4BEECD5CAA31"
+						},
+						"Name": "Fare Family Search Add On",
+						"Description": "Fare Family Search -Advanced Air search AddOn",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB01      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "GA"
+						}]
+					}, {
+						"Identifer": {
+							"value": "78964D46-82F0-4C2E-8B91-36CC721F42BA"
+						},
+						"Name": "Split Ticketing",
+						"Description": "Split Ticketing -Advanced Air search Add-On",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB02      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "Beta"
+						}]
+					}, {
+						"Identifer": {
+							"value": "68162BBE-7C2F-415D-A6C6-B7FD8350C9CC"
+						},
+						"Name": "NDC Content",
+						"Description": "NDC Content -Advanced Air search Add-On",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB03      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "GA"
+						}]
+					}]
+				}],
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "TEST      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "ACD00C84-EC62-4CC9-B151-C5FAAF79C00B",
+				"Code": "QA21",
+				"Name": "MockTrip Services",
+				"Description": "Air Search",
+				"Category": "API",
+				"Version": "1.0",
+				"Product": [{
+					"APIName": "AirSearch & Availability",
+					"ProductVersion": "V1",
+					"AddOnEntitlement": [{
+						"Identifer": {
+							"value": "1E7076CD-B0A0-4233-874F-4BEECD5CAA31"
+						},
+						"Name": "Fare Family Search Add On",
+						"Description": "Fare Family Search -Advanced Air search AddOn",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB01      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "GA"
+						}]
+					}, {
+						"Identifer": {
+							"value": "78964D46-82F0-4C2E-8B91-36CC721F42BA"
+						},
+						"Name": "Split Ticketing",
+						"Description": "Split Ticketing -Advanced Air search Add-On",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB02      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "Beta"
+						}]
+					}, {
+						"Identifer": {
+							"value": "68162BBE-7C2F-415D-A6C6-B7FD8350C9CC"
+						},
+						"Name": "NDC Content",
+						"Description": "NDC Content -Advanced Air search Add-On",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB03      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "GA"
+						}]
+					}]
+				}],
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "TA01      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "2F58D604-3610-4C95-836E-23EC05ABB041",
+				"Code": "AGPY_KL",
+				"Name": "MockAGENCY_PAYS_KL_T",
+				"Description": "AgencyPays Kit for KLM Airlines",
+				"Category": "GENERIC",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "0"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "KL01      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "AB82B65F-3880-4CC3-AA2F-9372330BF0F2",
+				"Code": "KIT-SP-KITV1-000010-RBD",
+				"Name": "MockSmartpoint",
+				"Description": "Kit for SP v1",
+				"Category": "POS",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "0"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Live"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "TSAK      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "8B668658-2FAC-4680-B447-E7D0EBB6B7FD",
+				"Code": "Test0",
+				"Name": "MockNewProduct1",
+				"Description": "TestProductKit Details",
+				"Category": "API",
+				"Version": "17.0",
+				"Product": [{
+					"APIName": "AirSearch & Availability",
+					"ProductVersion": "V1",
+					"AddOnEntitlement": [{
+						"Identifer": {
+							"value": "1E7076CD-B0A0-4233-874F-4BEECD5CAA31"
+						},
+						"Name": "Fare Family Search Add On",
+						"Description": "Fare Family Search -Advanced Air search AddOn",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB01      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "GA"
+						}]
+					}, {
+						"Identifer": {
+							"value": "78964D46-82F0-4C2E-8B91-36CC721F42BA"
+						},
+						"Name": "Split Ticketing",
+						"Description": "Split Ticketing -Advanced Air search Add-On",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB02      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "Beta"
+						}]
+					}, {
+						"Identifer": {
+							"value": "68162BBE-7C2F-415D-A6C6-B7FD8350C9CC"
+						},
+						"Name": "NDC Content",
+						"Description": "NDC Content -Advanced Air search Add-On",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB03      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "GA"
+						}]
+					}]
+				}],
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "GA"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "          "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "8E0376E6-F281-4CAB-8993-81B8D839D502",
+				"Code": "PAYK01",
+				"Name": "MockPayment Card Services Kit",
+				"Description": "Payment Card Services Kit v1",
+				"Category": "API",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "GA"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "TP01      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "07CF6BFE-2A0B-46B2-89E5-3F01C2AC555C",
+				"Code": "------",
+				"Name": "MockTripChange Search",
+				"Description": "TripChange Search Kit v1",
+				"Category": "API",
+				"Version": "1.0",
+				"Product": [{
+					"APIName": "TripChange-Domain-Preview 4535",
+					"ProductVersion": "V3",
+					"AddOnEntitlement": [{
+						"Identifer": {
+							"value": "43D85F00-122A-4045-9F11-CEFC72EC4BC9"
+						},
+						"Name": "AddOn 4",
+						"Description": "Addontest",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TU9       "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "GA"
+						}]
+					}]
+				}],
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "TU02      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "8B6F591A-C091-43D9-B8E6-5E32748F68BF",
+				"Code": "HOTEL01",
+				"Name": "MockHotel Kit",
+				"Description": "Hotel Kit v1",
+				"Category": "API",
+				"Version": "19.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "GA"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "TH01      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "F56124E0-3DE0-442C-806E-1E0B2FC5858F",
+				"Code": "HOTEL01",
+				"Name": "MockATBROAD",
+				"Description": "AT BROAD",
+				"Category": "API",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "ATBR      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "B1D67247-8193-4528-B6E0-6AD3DF015F54",
+				"Code": "Air01",
+				"Name": "MockTestProd",
+				"Description": "Prod",
+				"Category": "API",
+				"Version": "4.0",
+				"Product": [{
+					"APIName": "AirSearch & Availability",
+					"ProductVersion": "V1",
+					"AddOnEntitlement": [{
+						"Identifer": {
+							"value": "1E7076CD-B0A0-4233-874F-4BEECD5CAA31"
+						},
+						"Name": "Fare Family Search Add On",
+						"Description": "Fare Family Search -Advanced Air search AddOn",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB01      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "GA"
+						}]
+					}, {
+						"Identifer": {
+							"value": "78964D46-82F0-4C2E-8B91-36CC721F42BA"
+						},
+						"Name": "Split Ticketing",
+						"Description": "Split Ticketing -Advanced Air search Add-On",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB02      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "Beta"
+						}]
+					}, {
+						"Identifer": {
+							"value": "68162BBE-7C2F-415D-A6C6-B7FD8350C9CC"
+						},
+						"Name": "NDC Content",
+						"Description": "NDC Content -Advanced Air search Add-On",
+						"AddOnProductFeatures": [{
+							"name": "DATA_BLLNG_CD",
+							"value": "TB03      "
+						}, {
+							"name": "IS_COMMERCIAL",
+							"value": "1"
+						}, {
+							"name": "PRODUCT_PHASE",
+							"value": "GA"
+						}]
+					}]
+				}],
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "GA"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "TSAK      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "FA70CF15-F90A-415F-9ABF-85F93A575472",
+				"Code": "POSEXT",
+				"Name": "MockSPCloud-POS-Exchange",
+				"Description": "A kit for SP Cloud exchange capability",
+				"Category": "POS",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "EXCH      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "D83DDFFB-D0E8-46FF-8391-4CDF730F3535",
+				"Code": "SSSSSS",
+				"Name": "MockTripServices123",
+				"Description": "Kit for Hote",
+				"Category": "API",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "0"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "GA"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "bbbb      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "C24FDAA9-00D4-478D-9275-EA3C89F500ED",
+				"Code": "AAA",
+				"Name": "MockTripServices9",
+				"Description": "Kit for Hotel",
+				"Category": "POS",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "TB11      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "6A7701E8-2CDE-43BD-A3C7-C0C43EBC154D",
+				"Code": "AAA",
+				"Name": "MockTripServices8",
+				"Description": "Kit for Hotel",
+				"Category": "POS",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "TB11      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "3F9C970B-E2C2-4E07-83FF-F031B899831E",
+				"Code": "NDCPLU",
+				"Name": "MockTEST3613",
+				"Description": "TEST",
+				"Category": "API",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "tyui      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "84BB4396-3533-46A4-B7D6-905344DB41CF",
+				"Code": "HOTELK03",
+				"Name": "MockHotelKit-DEV",
+				"Description": "Bizagi Added to match PreProd",
+				"Category": "API",
+				"Version": "3.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "1"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "TSHK      "
+				}]
+			}, {
+				"@type": "ProductEntitlement",
+				"id": "333E3EA9-0F0A-4954-9B40-574309BC60FF",
+				"Code": "AGPY_AI",
+				"Name": "MockAGENCY_PAYS_AI",
+				"Description": "AgencyPays Kit for AirIndia",
+				"Category": "GENERIC",
+				"Version": "1.0",
+				"ProductAttributes": [{
+					"name": "IS_COMMERCIAL",
+					"value": "0"
+				}, {
+					"name": "PRODUCT_PHASE",
+					"value": "Alpha"
+				}, {
+					"name": "DATA_BLLNG_CD",
+					"value": "AI01      "
+				}]
+			}]
+		}
+	}
+}

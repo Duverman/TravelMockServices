@@ -1,0 +1,37 @@
+{
+    "IdmUserListResponse": {
+        "IdmUserID": [
+            {
+                "@type": "IdmUser",
+                "activeInd": true,
+                "id": "TP06108775",
+                "FirstName": "Tom",
+                "LastName": "Griffey",
+                "Email": "tgriffey@gmail.com",
+                "CustomerNumber": [
+                    "626025"
+                ],
+                "Roles": [
+                    ""
+                ],
+                "AccessGroup": [
+                    "040812BB-9881-4043-908F-70293E88A0E5",
+                    "F11F0894-E107-4D9C-963B-08AE186E0B2F",
+                    "01630DA4-1DCD-4CAB-BF43-BA2BB5B1BDE8",
+                    "4EAB0BD5-37EF-4C6F-8C16-5253C7D43452"
+                ],
+                "DefaultCustomerNumber": "",
+                "LanguagePreference": "",
+                "RightNowContactId": "",
+                "TPLocale": "",
+                "UserType": "RunTimeExternal",
+                "UserNotification": "",
+                "PasswordReset": "Allowed"
+            }
+        ],
+        "Result": {
+            "@type": "Result",
+            "status": "Complete"
+        }
+    }
+}

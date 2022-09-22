@@ -1,0 +1,761 @@
+"
+            },
+            "MasterCustomerNumber": "0000626025",
+            "AccessGroup": [
+                {
+                    "@type": "AccessGroup",
+                    "coreSystem": "1G",
+                    "enableInd": true,
+                    "Identifier": {
+                        "value": "6415D5DB-6C79-42A1-B971-AC1ABFF2EAC1"
+                    },
+                    "PseudoCityCode": "6JR",
+                    "AccessGroupInternalName": "84C62115-8F40-4E92-A80B-AA05938CC257.6JR.1G",
+                    "AccessGroupExternalName": "Please Change Me! (6JR 1G)",
+                    "AccessGroupKeyPair": [
+                        {
+                            "name": "MasterGTID",
+                            "value": "6D2E87"
+                        }
+                    ]
+                },
+                {
+                    "@type": "AccessGroup",
+                    "coreSystem": "1G",
+                    "enableInd": true,
+                    "Identifier": {
+                        "value": "A0958CB8-E0DA-4F4A-8868-D6CE81CDF4FF"
+                    },
+                    "PseudoCityCode": "8HU4",
+                    "AccessGroupInternalName": "84C62115-8F40-4E92-A80B-AA05938CC257.8HU4.1G",
+                    "AccessGroupExternalName": "Please Change Me! (8HU4 1G)",
+                    "AccessGroupKeyPair": [
+                        {
+                            "name": "MasterGTID",
+                            "value": "6D2E88"
+                        }
+                    ]
+                },
+                {
+                    "@type": "AccessGroup",
+                    "coreSystem": "1G",
+                    "enableInd": true,
+                    "Identifier": {
+                        "value": "A4B32F71-B4E3-4F48-B775-14EF4052CE8A"
+                    },
+                    "PseudoCityCode": "SJ1 ",
+                    "AccessGroupInternalName": "84C62115-8F40-4E92-A80B-AA05938CC257.SJ1.1G",
+                    "AccessGroupExternalName": "Please Change Me! (SJ1 1G)",
+                    "AccessGroupKeyPair": [
+                        {
+                            "name": "MasterGTID"
+                        }
+                    ]
+                },
+                {
+                    "@type": "AccessGroup",
+                    "coreSystem": "1G",
+                    "enableInd": true,
+                    "Identifier": {
+                        "value": "7EF2CAE5-136E-4211-B218-B450DCC1AB6E"
+                    },
+                    "PseudoCityCode": "8J7Z",
+                    "AccessGroupInternalName": "84C62115-8F40-4E92-A80B-AA05938CC257.8J7Z.1G",
+                    "AccessGroupExternalName": "Please Change Me! (8J7Z 1G)",
+                    "AccessGroupKeyPair": [
+                        {
+                            "name": "MasterGTID",
+                            "value": "6D2E86"
+                        }
+                    ]
+                }
+            ],
+            "AkanaApp": [
+                {
+                    "@type": "AkanaApp",
+                    "id": "1b0164da-127f-4579-ad8f-d29dc7fdd7e3.dev",
+                    "AppName": "0000626025_devNew_APITP374",
+                    "AppVersion": "RTbRBmqlREmIJORmWV2JHIWlMiXpLsOkzpwJpXlq.dev",
+                    "AppSecret": "d4cca22bada911b21092215f6c20956fa1235d694a0bce6ba2408516fcb232b6",
+                    "AppKey": "dev-RTbRBmqlREmIJORmWV2JHIWlMiXpLsOkzpwJpXlq"
+                }
+            ],
+            "ProductEntitlement": [
+                {
+                    "@type": "ProductEntitlement",
+                    "enableInd": true,
+                    "id": "958E8269-17A4-4EE2-B2BC-872DB7340216",
+                    "Code": "TS22",
+                    "Name": "MockTestKit1",
+                    "Description": "TestKit",
+                    "Category": "API",
+                    "Version": "1.0",
+                    "Product": [
+                        {
+                            "APIName": "AirSearch12",
+                            "APIVersion": "dcf6451e-a977-48ec-a62a-9947f6320f03.dev",
+                            "ProductVersion": "V19",
+                            "Identifier": {
+                                "value": "5E595508-FFDB-4F1D-9D9A-62583ECFF0AC"
+                            },
+                            "ResourceURL": [
+                                "https://api.apim-a.adc.dev.travelport.io:443/osdev/ATOMIC/v9_0"
+                            ]
+                        },
+                        {
+                            "APIName": "APIRollBack2",
+                            "APIVersion": "dcf6451e-a977-48ec-a62a-9947f6320f03.dev",
+                            "ProductVersion": "V0",
+                            "Identifier": {
+                                "value": "1D45E7F1-3F1F-485B-9A82-A916CA25DEF8"
+                            },
+                            "ResourceURL": [
+                                "https://api.apim-a.adc.dev.travelport.io:443/osdev/ATOMIC/v9_0"
+                            ]
+                        }
+                    ],
+                    "ProductAttributes": [
+                        {
+                            "name": "IS_COMMERCIAL",
+                            "value": "1"
+                        },
+                        {
+                            "name": "PRODUCT_PHASE",
+                            "value": "Alpha"
+                        },
+                        {
+                            "name": "DATA_BLLNG_CD",
+                            "value": "BI01      "
+                        }
+                    ]
+                },
+                {
+                    "@type": "ProductEntitlement",
+                    "enableInd": true,
+                    "id": "E44F0B34-8559-4F3D-8D6E-599A8BF4474A",
+                    "Code": "KIT-HOTELELKITV1-000010-RBD-01",
+                    "Name": "MockHotelKit1",
+                    "Description": "Kit for shopping and booking Hotels v1",
+                    "Category": "API",
+                    "Version": "1.0",
+                    "Product": [
+                        {
+                            "APIName": "AirSearch & Availability",
+                            "APIVersion": "dcf6451e-a977-48ec-a62a-9947f6320f03.dev",
+                            "ProductVersion": "V1",
+                            "Identifier": {
+                                "value": "E76C85EE-B432-4C90-B070-FC493DE78E46"
+                            },
+                            "AddOnEntitlement": [
+                                {
+                                    "Identifer": {
+                                        "value": "1E7076CD-B0A0-4233-874F-4BEECD5CAA31"
+                                    },
+                                    "Name": "Fare Family Search Add On",
+                                    "Description": "Fare Family Search -Advanced Air search AddOn",
+                                    "AddOnProductFeatures": [
+                                        {
+                                            "name": "DATA_BLLNG_CD",
+                                            "value": "TB01      "
+                                        },
+                                        {
+                                            "name": "IS_COMMERCIAL",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "name": "PRODUCT_PHASE",
+                                            "value": "GA"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Identifer": {
+                                        "value": "78964D46-82F0-4C2E-8B91-36CC721F42BA"
+                                    },
+                                    "Name": "Split Ticketing",
+                                    "Description": "Split Ticketing -Advanced Air search Add-On",
+                                    "AddOnProductFeatures": [
+                                        {
+                                            "name": "DATA_BLLNG_CD",
+                                            "value": "TB02      "
+                                        },
+                                        {
+                                            "name": "IS_COMMERCIAL",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "name": "PRODUCT_PHASE",
+                                            "value": "Beta"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Identifer": {
+                                        "value": "68162BBE-7C2F-415D-A6C6-B7FD8350C9CC"
+                                    },
+                                    "Name": "NDC Content",
+                                    "Description": "NDC Content -Advanced Air search Add-On",
+                                    "AddOnProductFeatures": [
+                                        {
+                                            "name": "DATA_BLLNG_CD",
+                                            "value": "TB03      "
+                                        },
+                                        {
+                                            "name": "IS_COMMERCIAL",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "name": "PRODUCT_PHASE",
+                                            "value": "GA"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "ResourceURL": [
+                                "https://api.apim-a.adc.dev.travelport.io:443/osdev/ATOMIC/v9_0"
+                            ]
+                        }
+                    ],
+                    "ProductAttributes": [
+                        {
+                            "name": "IS_COMMERCIAL",
+                            "value": "1"
+                        },
+                        {
+                            "name": "PRODUCT_PHASE",
+                            "value": "Alpha"
+                        },
+                        {
+                            "name": "DATA_BLLNG_CD",
+                            "value": "TSHK      "
+                        }
+                    ]
+                },
+                {
+                    "@type": "ProductEntitlement",
+                    "enableInd": true,
+                    "id": "3D930D36-A88C-49DE-820D-2FABAD1F04DC",
+                    "Code": "AIRK02",
+                    "Name": "MockTest Kit for New Akana",
+                    "Description": "Airkit related apis will be part of it",
+                    "Category": "API",
+                    "Version": "V0",
+                    "Product": [
+                        {
+                            "APIName": "Ticketing Resources",
+                            "APIVersion": "a325268d-ca33-4a9c-acc9-b38a6f7772c2.dev",
+                            "ProductVersion": "v2",
+                            "Identifier": {
+                                "value": "BC07452E-D62C-4BB2-B689-536B37900DD3"
+                            },
+                            "ResourceURL": [
+                                "https://api.apim-a.adc.dev.travelport.io:443/api10811live",
+                                "https://api.apim-a.zu2.dev.travelport.io:443/api10811live"
+                            ]
+                        },
+                        {
+                            "APIName": "TripChange-Domain-Preview 4535",
+                            "APIVersion": "a325268d-ca33-4a9c-acc9-b38a6f7772c2.dev",
+                            "ProductVersion": "V3",
+                            "Identifier": {
+                                "value": "BBA5BE25-7198-4CF1-8604-E6A912F2A32E"
+                            },
+                            "AddOnEntitlement": [
+                                {
+                                    "Identifer": {
+                                        "value": "43D85F00-122A-4045-9F11-CEFC72EC4BC9"
+                                    },
+                                    "Name": "AddOn 4",
+                                    "Description": "Addontest",
+                                    "AddOnProductFeatures": [
+                                        {
+                                            "name": "DATA_BLLNG_CD",
+                                            "value": "TU9       "
+                                        },
+                                        {
+                                            "name": "IS_COMMERCIAL",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "name": "PRODUCT_PHASE",
+                                            "value": "GA"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "ResourceURL": [
+                                "https://api.apim-a.adc.dev.travelport.io:443/api10811live",
+                                "https://api.apim-a.zu2.dev.travelport.io:443/api10811live"
+                            ]
+                        }
+                    ],
+                    "ProductAttributes": [
+                        {
+                            "name": "IS_COMMERCIAL",
+                            "value": "1"
+                        },
+                        {
+                            "name": "PRODUCT_PHASE",
+                            "value": "GA"
+                        },
+                        {
+                            "name": "DATA_BLLNG_CD",
+                            "value": "TA01      "
+                        }
+                    ]
+                },               
+                {
+                    "@type": "ProductEntitlement",
+                    "enableInd": true,
+                    "id": "7BB094F7-EC62-4721-8B30-B38A2F6A19C4",
+                    "Code": "KIT-HOTELELKITV1-000010-RBD-01",
+                    "Name": "MockHotelKit_Test1",
+                    "Description": "Kit for Hotel Services",
+                    "Category": "API",
+                    "Version": "1.0",
+                    "Product": [
+                        {
+                            "APIName": "asasas",
+                            "APIVersion": "3a5b1a7c-5a4f-4725-a8ee-51f4361e8141.dev",
+                            "ProductVersion": "V0",
+                            "Identifier": {
+                                "value": "8D854F7C-DAA9-487E-9827-140ECB3850D7"
+                            },
+                            "ResourceURL": [
+                                "https://api.apim-a.zu2.dev.travelport.io:443/dev/9/receipt/DOMAIN"
+                            ]
+                        },
+                        {
+                            "APIName": "AirSearch----KIT121",
+                            "APIVersion": "a325268d-ca33-4a9c-acc9-b38a6f7772c2.dev",
+                            "ProductVersion": "V0",
+                            "Identifier": {
+                                "value": "3ADBF28D-C274-45A5-B052-2A8250662B29"
+                            },
+                            "ResourceURL": [
+                                "https://api.apim-a.adc.dev.travelport.io:443/api10811live",
+                                "https://api.apim-a.zu2.dev.travelport.io:443/api10811live"
+                            ]
+                        },
+                        {
+                            "APIName": "TripChange-Domain-Preview 4535",
+                            "APIVersion": "a325268d-ca33-4a9c-acc9-b38a6f7772c2.dev",
+                            "ProductVersion": "V3",
+                            "Identifier": {
+                                "value": "BBA5BE25-7198-4CF1-8604-E6A912F2A32E"
+                            },
+                            "AddOnEntitlement": [
+                                {
+                                    "Identifer": {
+                                        "value": "43D85F00-122A-4045-9F11-CEFC72EC4BC9"
+                                    },
+                                    "Name": "AddOn 4",
+                                    "Description": "Addontest",
+                                    "AddOnProductFeatures": [
+                                        {
+                                            "name": "DATA_BLLNG_CD",
+                                            "value": "TU9       "
+                                        },
+                                        {
+                                            "name": "IS_COMMERCIAL",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "name": "PRODUCT_PHASE",
+                                            "value": "GA"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "ResourceURL": [
+                                "https://api.apim-a.adc.dev.travelport.io:443/api10811live",
+                                "https://api.apim-a.zu2.dev.travelport.io:443/api10811live"
+                            ]
+                        },
+                        {
+                            "APIName": "AirSearch & Availability",
+                            "APIVersion": "dcf6451e-a977-48ec-a62a-9947f6320f03.dev",
+                            "ProductVersion": "V1",
+                            "Identifier": {
+                                "value": "E76C85EE-B432-4C90-B070-FC493DE78E46"
+                            },
+                            "AddOnEntitlement": [
+                                {
+                                    "Identifer": {
+                                        "value": "1E7076CD-B0A0-4233-874F-4BEECD5CAA31"
+                                    },
+                                    "Name": "Fare Family Search Add On",
+                                    "Description": "Fare Family Search -Advanced Air search AddOn",
+                                    "AddOnProductFeatures": [
+                                        {
+                                            "name": "DATA_BLLNG_CD",
+                                            "value": "TB01      "
+                                        },
+                                        {
+                                            "name": "IS_COMMERCIAL",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "name": "PRODUCT_PHASE",
+                                            "value": "GA"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Identifer": {
+                                        "value": "78964D46-82F0-4C2E-8B91-36CC721F42BA"
+                                    },
+                                    "Name": "Split Ticketing",
+                                    "Description": "Split Ticketing -Advanced Air search Add-On",
+                                    "AddOnProductFeatures": [
+                                        {
+                                            "name": "DATA_BLLNG_CD",
+                                            "value": "TB02      "
+                                        },
+                                        {
+                                            "name": "IS_COMMERCIAL",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "name": "PRODUCT_PHASE",
+                                            "value": "Beta"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Identifer": {
+                                        "value": "68162BBE-7C2F-415D-A6C6-B7FD8350C9CC"
+                                    },
+                                    "Name": "NDC Content",
+                                    "Description": "NDC Content -Advanced Air search Add-On",
+                                    "AddOnProductFeatures": [
+                                        {
+                                            "name": "DATA_BLLNG_CD",
+                                            "value": "TB03      "
+                                        },
+                                        {
+                                            "name": "IS_COMMERCIAL",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "name": "PRODUCT_PHASE",
+                                            "value": "GA"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "ResourceURL": [
+                                "https://api.apim-a.adc.dev.travelport.io:443/osdev/ATOMIC/v9_0"
+                            ]
+                        }
+                    ],
+                    "ProductAttributes": [
+                        {
+                            "name": "IS_COMMERCIAL",
+                            "value": "1"
+                        },
+                        {
+                            "name": "PRODUCT_PHASE",
+                            "value": "GA"
+                        },
+                        {
+                            "name": "DATA_BLLNG_CD",
+                            "value": "TSAK      "
+                        }
+                    ]
+                },                
+                {
+                    "@type": "ProductEntitlement",
+                    "enableInd": true,
+                    "id": "F97273E8-5F95-4CA9-B7F1-F319D9F93490",
+                    "Code": "SPCLOUDNB",
+                    "Name": "MockSmartpoint Plus",
+                    "Description": "Smartpoint Plus Kit",
+                    "Category": "POS",
+                    "Version": "1.0",
+                    "Product": [
+                        {
+                            "APIName": "Automated Exchanges and Refunds",
+                            "ProductVersion": "V1",
+                            "Identifier": {
+                                "value": "E3AF49DA-40B7-4AA1-B747-7D63CFABAC0A"
+                            },
+                            "AddOnEntitlement": [
+                                {
+                                    "enableInd": true,
+                                    "Identifer": {
+                                        "value": "55520F0E-B76D-4E20-83E1-1E1F1DC311BA"
+                                    },
+                                    "Name": "Automated Exchanges Add-on Kit",
+                                    "Description": "Automated Exchanges Add-on Kit for Smartpoint",
+                                    "AddOnProductFeatures": [
+                                        {
+                                            "name": "DATA_BLLNG_CD",
+                                            "value": "POSAUTOEXC"
+                                        },
+                                        {
+                                            "name": "IS_COMMERCIAL",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "name": "PRODUCT_PHASE",
+                                            "value": "Alpha"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "enableInd": true,
+                                    "Identifer": {
+                                        "value": "8FC94B52-F0C6-4B26-823D-32EF508284C9"
+                                    },
+                                    "Name": "Automated Refunds Add-on Kit",
+                                    "Description": "Automated Refunds Add-on Kit for Smartpoint",
+                                    "AddOnProductFeatures": [
+                                        {
+                                            "name": "DATA_BLLNG_CD",
+                                            "value": "POSAUTOREF"
+                                        },
+                                        {
+                                            "name": "IS_COMMERCIAL",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "name": "PRODUCT_PHASE",
+                                            "value": "Alpha"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "ProductAttributes": [
+                        {
+                            "name": "IS_COMMERCIAL",
+                            "value": "1"
+                        },
+                        {
+                            "name": "PRODUCT_PHASE",
+                            "value": "Alpha"
+                        },
+                        {
+                            "name": "DATA_BLLNG_CD",
+                            "value": "SPCLOUDNB "
+                        }
+                    ]
+                },
+                {
+                    "@type": "ProductEntitlement",
+                    "enableInd": true,
+                    "id": "54C11DD5-530C-4FE1-9FA8-6A1DC637A270",
+                    "Code": "Trip-Services",
+                    "Name": "MockHotelServices",
+                    "Description": "hotel Kit",
+                    "Category": "POS",
+                    "Version": "1",
+                    "ProductAttributes": [
+                        {
+                            "name": "IS_COMMERCIAL",
+                            "value": "0"
+                        },
+                        {
+                            "name": "PRODUCT_PHASE",
+                            "value": "Beta"
+                        },
+                        {
+                            "name": "DATA_BLLNG_CD",
+                            "value": "QWER      "
+                        }
+                    ]
+                },                                               
+                {
+                    "@type": "ProductEntitlement",
+                    "enableInd": true,
+                    "id": "DF1C3C4E-E626-4C75-B9EA-9D69605FE027",
+                    "Code": "AIRK05",
+                    "Name": "MockAirKit V5-DEV",
+                    "Description": "Bizagi Added to match PreProd",
+                    "Category": "API",
+                    "Version": "5.0",
+                    "Product": [
+                        {
+                            "APIName": "Ticketing Resources",
+                            "APIVersion": "a325268d-ca33-4a9c-acc9-b38a6f7772c2.dev",
+                            "ProductVersion": "v2",
+                            "Identifier": {
+                                "value": "BC07452E-D62C-4BB2-B689-536B37900DD3"
+                            },
+                            "ResourceURL": [
+                                "https://api.apim-a.adc.dev.travelport.io:443/api10811live",
+                                "https://api.apim-a.zu2.dev.travelport.io:443/api10811live"
+                            ]
+                        },
+                        {
+                            "APIName": "AirSearch & Availability",
+                            "APIVersion": "dcf6451e-a977-48ec-a62a-9947f6320f03.dev",
+                            "ProductVersion": "V1",
+                            "Identifier": {
+                                "value": "E76C85EE-B432-4C90-B070-FC493DE78E46"
+                            },
+                            "AddOnEntitlement": [
+                                {
+                                    "Identifer": {
+                                        "value": "1E7076CD-B0A0-4233-874F-4BEECD5CAA31"
+                                    },
+                                    "Name": "Fare Family Search Add On",
+                                    "Description": "Fare Family Search -Advanced Air search AddOn",
+                                    "AddOnProductFeatures": [
+                                        {
+                                            "name": "DATA_BLLNG_CD",
+                                            "value": "TB01      "
+                                        },
+                                        {
+                                            "name": "IS_COMMERCIAL",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "name": "PRODUCT_PHASE",
+                                            "value": "GA"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Identifer": {
+                                        "value": "78964D46-82F0-4C2E-8B91-36CC721F42BA"
+                                    },
+                                    "Name": "Split Ticketing",
+                                    "Description": "Split Ticketing -Advanced Air search Add-On",
+                                    "AddOnProductFeatures": [
+                                        {
+                                            "name": "DATA_BLLNG_CD",
+                                            "value": "TB02      "
+                                        },
+                                        {
+                                            "name": "IS_COMMERCIAL",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "name": "PRODUCT_PHASE",
+                                            "value": "Beta"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Identifer": {
+                                        "value": "68162BBE-7C2F-415D-A6C6-B7FD8350C9CC"
+                                    },
+                                    "Name": "NDC Content",
+                                    "Description": "NDC Content -Advanced Air search Add-On",
+                                    "AddOnProductFeatures": [
+                                        {
+                                            "name": "DATA_BLLNG_CD",
+                                            "value": "TB03      "
+                                        },
+                                        {
+                                            "name": "IS_COMMERCIAL",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "name": "PRODUCT_PHASE",
+                                            "value": "GA"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "ResourceURL": [
+                                "https://api.apim-a.adc.dev.travelport.io:443/osdev/ATOMIC/v9_0"
+                            ]
+                        }
+                    ],
+                    "ProductAttributes": [
+                        {
+                            "name": "IS_COMMERCIAL",
+                            "value": "1"
+                        },
+                        {
+                            "name": "PRODUCT_PHASE",
+                            "value": "Alpha"
+                        },
+                        {
+                            "name": "DATA_BLLNG_CD",
+                            "value": "TSAK      "
+                        }
+                    ]
+                },
+                {
+                    "@type": "ProductEntitlement",
+                    "enableInd": true,
+                    "id": "615161C7-B7FB-41F3-9D20-F1E486A97FCF",
+                    "Code": "AIRK04",
+                    "Name": "MockAirKit V4-DEV",
+                    "Description": "Bizagi Added to match PreProd",
+                    "Category": "API",
+                    "Version": "4.0",
+                    "Product": [
+                        {
+                            "APIName": "AirSearch12",
+                            "APIVersion": "dcf6451e-a977-48ec-a62a-9947f6320f03.dev",
+                            "ProductVersion": "V19",
+                            "Identifier": {
+                                "value": "5E595508-FFDB-4F1D-9D9A-62583ECFF0AC"
+                            },
+                            "ResourceURL": [
+                                "https://api.apim-a.adc.dev.travelport.io:443/osdev/ATOMIC/v9_0"
+                            ]
+                        }
+                    ],
+                    "ProductAttributes": [
+                        {
+                            "name": "IS_COMMERCIAL",
+                            "value": "1"
+                        },
+                        {
+                            "name": "PRODUCT_PHASE",
+                            "value": "Alpha"
+                        },
+                        {
+                            "name": "DATA_BLLNG_CD",
+                            "value": "TSAK      "
+                        }
+                    ]
+                },
+                {
+                    "@type": "ProductEntitlement",
+                    "enableInd": true,
+                    "id": "FB9FAE46-3FBE-48F6-A859-BC25C586C71C",
+                    "Code": "AIRK03",
+                    "Name": "MockAirKit V3-DEV",
+                    "Description": "Bizagi Added to match PreProd",
+                    "Category": "API",
+                    "Version": "3.0",
+                    "Product": [
+                        {
+                            "APIName": "AirTicket-BackOfficeDomain-v9-DEV",
+                            "APIVersion": "de559403-f497-48f5-b8a1-43112c9545eb.dev",
+                            "ProductVersion": "V9",
+                            "Identifier": {
+                                "value": "5F88683E-7AF3-4AB1-9E6F-8D1F96E291C4"
+                            },
+                            "ResourceURL": [
+                                "https://api.apim-a.zu2.dev.travelport.io:443/dev/9/BackOffice/DOMAIN"
+                            ]
+                        }
+                    ],
+                    "ProductAttributes": [
+                        {
+                            "name": "IS_COMMERCIAL",
+                            "value": "1"
+                        },
+                        {
+                            "name": "PRODUCT_PHASE",
+                            "value": "Alpha"
+                        },
+                        {
+                            "name": "DATA_BLLNG_CD",
+                            "value": "TSAK      "
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
